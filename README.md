@@ -11,3 +11,7 @@ Codeswitch.mn is a Wordpress site hosted on AWS using a [Bitnami](https://aws.am
 ## SSH
 
 Assuming you have a key setup, simply `ssh bitnami@codeswitch.opentwincities.org` .
+
+## phpMyAdmin
+
+phpMyAdmin is available, but only via tunneled access to `http://127.0.0.1/phpmyadmin` . [See these instructions on how to access phpMyAdmin](https://wiki.bitnami.com/Components/phpMyAdmin#How_to_enable_phpMyAdmin_or_phpPgAdmin_to_be_accessed_remotely.3f).
